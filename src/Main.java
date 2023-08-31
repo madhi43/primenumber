@@ -10,7 +10,8 @@ import java.util.Scanner;
             int num = i.nextInt();
             System.out.println(c.func(num));
         }
-        static class calc {
+    }
+        class calc {
             String func(int n) {
                 int count =0;
                 for(int i=2;i<n;i++)
@@ -28,6 +29,11 @@ import java.util.Scanner;
                     return ("The number is prime");
                 }
             }
+        }
+    
+
+
+
         }
     }
 
